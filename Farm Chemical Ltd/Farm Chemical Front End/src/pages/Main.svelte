@@ -4,13 +4,13 @@
   import TitleBar from "../components/TitleBar.svelte";
   import {getContext} from "svelte";
 
-  const donationService = getContext("DoseService");
-  donationService.logout();
+  const doseService = getContext("DoseService");
+  doseService.logout();
 </script>
 
 <div class="columns is-vcentered">
   <div class="column is-two-thirds">
-    <TitleBar subTitle={"Sign up or Log in"} title={"Curran farm Chemicals Ltd"}/>
+    <TitleBar subTitle={"Sign up or Log in"} title={"Curran Farm Chemicals Ltd"}/>
   </div>
   <div class="column">
     <WelcomeNavigator/>

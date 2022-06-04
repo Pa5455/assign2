@@ -17,7 +17,7 @@
     "/": Main,
     "/login": Login,
     "/signup": Signup,
-    "/donate": Dose,
+    "/dose": Dose,
     "/report": Report,
     "/map": Map,
     "/charts": Charts,

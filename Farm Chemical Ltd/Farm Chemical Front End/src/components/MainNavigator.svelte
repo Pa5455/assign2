@@ -1,5 +1,5 @@
 <div class="box has-text-centered columns m-2">
-  <a href="/#/donate" class="column is-2 mx-2">
+  <a href="/#/dose" class="column is-2 mx-2">
     <i class="fas fa-hand-holding-usd fa-3x" style="color:rgb(153, 196, 74)"></i>
   </a>
   <a href="/#/report" class="column is-2 mx-2">

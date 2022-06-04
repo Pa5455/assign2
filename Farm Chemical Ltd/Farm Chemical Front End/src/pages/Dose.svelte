@@ -9,6 +9,8 @@
   function doseMade(event) {
     doseMap.addDoseMarker(event.detail.dose);
   }
+
+  
 </script>
 
 <div class="columns is-vcentered">

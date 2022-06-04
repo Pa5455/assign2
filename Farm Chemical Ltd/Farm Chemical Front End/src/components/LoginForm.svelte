@@ -1,6 +1,7 @@
 <script>
   import {push} from "svelte-spa-router";
   import {getContext} from "svelte";
+  
 
   let email = ""
   let password = "";
@@ -11,7 +12,7 @@
   async function login() {
     let success = await doseService.login(email, password)
     if (success) {
-      push("/donate");
+      push("/dose");
     } else {
       email = "";
       password = "";

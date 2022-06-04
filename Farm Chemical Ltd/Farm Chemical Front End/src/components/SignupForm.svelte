@@ -10,10 +10,11 @@
 
   const doseService = getContext("DoseService");
 
+
   async function signup() {
     let success = await doseService.signup(firstName, lastName, email, password)
     if (success) {
-      push("/dose");
+      push("/login");
     } else {
       errorMessage = "Error Trying to sign up";
     }
