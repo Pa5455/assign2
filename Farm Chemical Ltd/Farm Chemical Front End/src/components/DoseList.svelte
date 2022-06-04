@@ -13,8 +13,8 @@
   <thead>
     <th>Amount</th>
     <th>Method</th>
-    <th>Sales</th>
     <th>Product</th>
+    <th>Sales</th>
   </thead>
   <tbody>
     {#each doseList as dose}

@@ -8,6 +8,8 @@
   import Dose from "./pages/Dose.svelte";
   import Map from "./pages/Map.svelte";
   import Router from "svelte-spa-router";
+  import Charts from "./pages/Charts.svelte";
+
 
   setContext("DoseService", new DoseService("http://localhost:4000"));
 
@@ -18,6 +20,7 @@
     "/donate": Dose,
     "/report": Report,
     "/map": Map,
+    "/charts": Charts,
     "/logout": Main
   }
 </script>

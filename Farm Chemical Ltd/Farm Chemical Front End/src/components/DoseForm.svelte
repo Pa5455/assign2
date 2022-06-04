@@ -11,7 +11,7 @@
   let productList = [];
   let selectedProduct = "";
 
-  let paymentMethods = ["Drum", "Bottle"];
+  let paymentMethods = ["drum", "bottle"];
   let selectedMethod = "";
 
   let lat = 52.160858;

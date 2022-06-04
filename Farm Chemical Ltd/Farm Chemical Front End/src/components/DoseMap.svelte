@@ -22,11 +22,13 @@
     dosage.forEach(dose => {
       addDoseMarker(dose);
     });
+
+    
   });
 
   export function addDoseMarker(dose) {
-    const doseStr = `${dose.product.firstName} ${dose.product.lastName} €${dose.amount.toString()}`;
-    map.addMarker({lat: dose.lat, lng: dose.lng}, doseStr, "Dosage");
+    const doseStr = `${dose.product.brandName} ${dose.product.typeName} ${dose.amount.toString()} Ltr`;
+    map.addMarker({lat: dose.lat, lng: dose.lng}, doseStr, "Dosage",);
     map.moveTo(11, {lat: dose.lat, lng: dose.lng});
   }
 </script>
